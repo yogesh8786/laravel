@@ -2916,3 +2916,141 @@ Open repository: /var/www/html/chat_system
 > git show --textconv :resources/views/admin/chat/setting.blade.php
 > git ls-files --stage -- /var/www/html/chat_system/resources/views/admin/chat/setting.blade.php
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /var/www/html/chat_system/resources/views/admin/chat/setting.blade.php
+> git cat-file -s 3f8a185a392d163cb6a056f83b1983242bee5b13
+> git show --textconv :resources/views/admin/chat/setting.blade.php
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /var/www/html/chat_system/resources/views/admin/chat/setting.blade.php
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /var/www/html/chat_system/routes/web.php
+> git cat-file -s 4f8a9d48ebf478b92726f46a24b2ef7594e6059d
+> git show --textconv :resources/views/admin/chat/modal.blade.php
+> git ls-files --stage -- /var/www/html/chat_system/resources/views/admin/chat/modal.blade.php
+> git cat-file -s 4af9dfcc2ed44466c9d3488c9d9f843972fec63b
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /var/www/html/chat_system/routes/web.php
+> git cat-file -s 4f8a9d48ebf478b92726f46a24b2ef7594e6059d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/Http/Controllers/Admin/AuthController.php
+> git ls-files --stage -- /var/www/html/chat_system/app/Http/Controllers/Admin/AuthController.php
+> git cat-file -s 594cdf80148d73e358ff140110fda75afd70be09
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /var/www/html/chat_system/routes/web.php
+> git cat-file -s 4f8a9d48ebf478b92726f46a24b2ef7594e6059d
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/Http/Controllers/Admin/AuthController.php
+> git ls-files --stage -- /var/www/html/chat_system/app/Http/Controllers/Admin/AuthController.php
+> git cat-file -s 594cdf80148d73e358ff140110fda75afd70be09
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /var/www/html/chat_system/routes/web.php
+> git cat-file -s 4f8a9d48ebf478b92726f46a24b2ef7594e6059d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/Http/Controllers/Admin/AuthController.php
+> git ls-files --stage -- /var/www/html/chat_system/app/Http/Controllers/Admin/AuthController.php
+> git cat-file -s 594cdf80148d73e358ff140110fda75afd70be09
+> git show --textconv :resources/views/admin/chat/friends.blade.php
+> git ls-files --stage -- /var/www/html/chat_system/resources/views/admin/chat/friends.blade.php
+> git cat-file -s ea5b8bc2519706a33be83158c24b7917de907e6b
+> git show --textconv :resources/views/admin/chat/notifications.blade.php
+> git ls-files --stage -- /var/www/html/chat_system/resources/views/admin/chat/notifications.blade.php
+> git cat-file -s b5a300665e54b03e1cfcea37732bb7c7b5fd6d79
+> git show --textconv :routes/web.php
+> git ls-files --stage -- /var/www/html/chat_system/routes/web.php
+> git cat-file -s 4f8a9d48ebf478b92726f46a24b2ef7594e6059d
+> git show --textconv :resources/views/includes/admin_navbar.blade.php
+> git ls-files --stage -- /var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php
+> git cat-file -s 779089eb10ff6c76241b9e9f37f2e324fd29ccbb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

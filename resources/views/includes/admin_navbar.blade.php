@@ -1,6 +1,6 @@
 <nav class="navigation d-flex flex-column text-center navbar navbar-light hide-scrollbar">
     <!-- Brand -->
-    <a href="{{ route('admin.index') }}" title="Messenger" class="d-none d-xl-block mb-6">
+    <a href="{{ route('admin.dashboard') }}" title="Messenger" class="d-none d-xl-block mb-6">
         <svg version="1.1" width="46px" height="46px" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 46 46" enable-background="new 0 0 46 46" xml:space="preserve">
             <polygon opacity="0.7" points="45,11 36,11 35.5,1 "/>
             <polygon points="35.5,1 25.4,14.1 39,21 "/>
@@ -44,7 +44,7 @@
 
         <!-- Chats -->
         <li class="nav-item">
-            <a class="nav-link active py-0 py-lg-8" id="tab-chats" href="{{ route('admin.index') }}" title="Chats">
+            <a class="nav-link active py-0 py-lg-8" id="tab-chats" href="{{ route('admin.dashboard') }}" title="Chats">
                 <div class="icon icon-xl icon-badged">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                     <div class="badge badge-circle bg-primary">

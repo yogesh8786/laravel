@@ -1,6 +1,5 @@
 {
     "[php]": {
         "editor.defaultFormatter": "apility.beautify-blade"
-    },
-    "window.zoomLevel": -1
+    }
 }

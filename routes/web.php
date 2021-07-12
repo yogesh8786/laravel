@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    if (Auth::check()) {
+        return redirect()->route('admin.dashboard');
+    }
+    return redirect()->route('admin.signin');
+})->name('home');
 
 Route::namespace('App\Http\Controllers')->group(function() {
       Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], function() {
@@ -28,7 +31,7 @@ Route::namespace('App\Http\Controllers')->group(function() {
             Route::get('forget-password','AuthController@forgetForm')->name('forgetPassword');
 });
 
-            Route::get('chats', 'ChatController@chatsForm')->name('index');
+            Route::get('chats', 'ChatController@chatsForm')->name('dashboard');
 
             Route::get('create_chat', 'ChatController@createChatForm')->name('create_chat');
 
@@ -40,7 +43,7 @@ Route::namespace('App\Http\Controllers')->group(function() {
 
             Route::get('support', 'SupportController@supportForm')->name('support');
 
-            Route::get('modal', 'ModalController@modalForm')->name('modal');
+            // Route::get('modal', 'ModalController@modalForm')->name('modal');
 
 
 Route::group(['middleware' => ['auth', 'admin']], function() {
