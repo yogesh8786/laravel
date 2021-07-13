@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Models\Role;
 class AuthController extends Controller
 {
     public function signinForm()
@@ -25,7 +25,7 @@ class AuthController extends Controller
                 return redirect($request->next);
             }
             notify()->success('Login Successful');
-            return redirect(route('admin.auth.signin'));
+            return redirect(route('admin.chats'));
         }
         notify()->warning('Invalid credentials');
         return back();
