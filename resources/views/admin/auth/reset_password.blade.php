@@ -1,4 +1,5 @@
 @extends('layouts.admin_auth')
+@section('title','reset password')
 @section('content')
 <div class="col-12 col-md-5 col-lg-4">
     <div class="card card-shadow border-0">
@@ -11,11 +12,13 @@
                     </div>
                 </div>
 
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="email" class="form-control" id="resetpassword-email" placeholder="Email">
-                        <label for="resetpassword-email">Email</label>
-                    </div>
+                <div class="input-group mb-4">
+                    <input type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}" required/>
+                    @error('email')
+                        <span class="validation invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
                 </div>
 
                 <div class="col-12">

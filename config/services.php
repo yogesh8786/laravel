@@ -29,5 +29,10 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-
+    'backup' => [
+        'db_username' => env('DB_USERNAME'),
+        'db_password' => env('DB_PASSWORD'),
+        'db_host' => env('DB_HOST'),
+        'db_database' => env('DB_DATABASE'),
+    ],
 ];

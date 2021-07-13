@@ -1,4 +1,5 @@
 @extends('layouts.admin_auth')
+@section('title','signin')
 @section('content')
 <div class="col-12 col-md-5 col-lg-4">
     <div class="card card-shadow border-0">
@@ -10,24 +11,23 @@
                         <p>Login to your account</p>
                     </div>
                 </div>
-
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="email" class="form-control" id="signin-email" placeholder="Email">
-                        <label for="signin-email">Email</label>
+                <form method="post" action="{{ route('admin.signin') }}">
+                    @csrf
+                    <div class="input-group mb-4">
+                        <input type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}" required/>
+                        @error('email')
+                            <span class="validation invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                     </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="password" class="form-control" id="signin-password" placeholder="Password">
-                        <label for="signin-password">Password</label>
+                    <div class="input-group mb-4">
+                        <input type="password" class="form-control" placeholder="Enter Password" name="password" required />
                     </div>
-                </div>
-
-                <div class="col-12">
-                    <button class="btn btn-block btn-lg btn-primary w-100" type="submit">Sign In</button>
-                </div>
+                    <div class="col-12">
+                        <button class="btn btn-block btn-lg btn-primary w-100" type="submit">Signin</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

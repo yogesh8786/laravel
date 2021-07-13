@@ -1,4 +1,5 @@
 @extends('layouts.admin_auth')
+@section('title','signup')
 @section('content')
 <div class="container">
     <div class="row align-items-center justify-content-center min-vh-100 gx-0">
@@ -13,31 +14,25 @@
                                 <p>Follow the easy steps</p>
                             </div>
                         </div>
+                        <form method="post" action="{{ route('admin.signup') }}">
 
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="signup-name" placeholder="Name">
-                                <label for="signup-name">Name</label>
+                            <div class="input-group mb-4">
+                                <input type="text" name="name" class="form-control" id="signup-name" placeholder="Name">
                             </div>
-                        </div>
 
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <input type="email" class="form-control" id="signup-email" placeholder="Email">
-                                <label for="signup-email">Email</label>
+                            <div class="input-group mb-4">
+                                <input type="email" name="email" class="form-control" id="signup-email" placeholder="Email">
                             </div>
-                        </div>
 
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <input type="password" class="form-control" id="signup-password" placeholder="Password">
-                                <label for="signup-password">Password</label>
+                            <div class="input-group mb-4">
+                                <input type="password" name="password" class="form-control" id="signup-password" placeholder="Password">
                             </div>
-                        </div>
+
 
                         <div class="col-12">
                             <button class="btn btn-block btn-lg btn-primary w-100" type="submit">Create Account</button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>

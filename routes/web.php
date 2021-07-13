@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,6 +31,13 @@ Route::namespace('App\Http\Controllers')->group(function() {
             Route::get('forget-password','AuthController@forgetForm')->name('forgetPassword');
 });
 
+
+
+            // Route::get('modal', 'ModalController@modalForm')->name('modal');
+
+
+        Route::group(['middleware' => ['auth', 'admin']], function() {
+
             Route::get('chats', 'ChatController@chatsForm')->name('dashboard');
 
             Route::get('create_chat', 'ChatController@createChatForm')->name('create_chat');
@@ -42,12 +49,6 @@ Route::namespace('App\Http\Controllers')->group(function() {
             Route::get('settings', 'SettingController@settingForm')->name('settings');
 
             Route::get('support', 'SupportController@supportForm')->name('support');
-
-            // Route::get('modal', 'ModalController@modalForm')->name('modal');
-
-
-Route::group(['middleware' => ['auth', 'admin']], function() {
-
 
        });
     });

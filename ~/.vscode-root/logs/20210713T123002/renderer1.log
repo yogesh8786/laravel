@@ -1,0 +1,364 @@
+[2021-07-13 12:33:01.895] [renderer1] [error] Git error
+[2021-07-13 12:34:09.807] [renderer1] [error] Git error
+[2021-07-13 12:34:24.112] [renderer1] [error] Git error
+[2021-07-13 13:30:24.974] [renderer1] [error] PARSE ERROR: 
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+      [2m+5 vendor frames [22m
+  27  Command line code:1
+      Illuminate\Foundation\Console\Kernel::handle()
+___VSCODE_LARAVEL_EXTRA_INSTELLISENSE_OUTPUT___
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+
+   Whoops\Exception\ErrorException 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+
+   Whoops\Exception\ErrorException 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+
+[2021-07-13 13:40:25.146] [renderer1] [error] PARSE ERROR: 
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+      [2m+5 vendor frames [22m
+  27  Command line code:1
+      Illuminate\Foundation\Console\Kernel::handle()
+___VSCODE_LARAVEL_EXTRA_INSTELLISENSE_OUTPUT___
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+
+   Whoops\Exception\ErrorException 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+
+   Whoops\Exception\ErrorException 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+
+[2021-07-13 13:50:25.383] [renderer1] [error] PARSE ERROR: 
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+      [2m+5 vendor frames [22m
+  27  Command line code:1
+      Illuminate\Foundation\Console\Kernel::handle()
+___VSCODE_LARAVEL_EXTRA_INSTELLISENSE_OUTPUT___
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+
+   Whoops\Exception\ErrorException 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+
+   Whoops\Exception\ErrorException 
+
+  Uncaught InvalidArgumentException: Please provide a valid cache path. in /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+Stack trace:
+#0 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\View\Compilers\Compiler->__construct()
+#1 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(869): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}()
+#2 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build()
+#3 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#4 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#5 /var/www/html/chat_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(8
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+
+[2021-07-13 14:51:17.028] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-13 14:51:20.709] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
