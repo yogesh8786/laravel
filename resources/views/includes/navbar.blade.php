@@ -83,7 +83,7 @@
 
         <!-- Profile -->
         <li class="nav-item">
-            <a href="#" class="nav-link p-0 mt-lg-2" data-toggle="modal" data-bs-target="#modal-profile">
+            <a href="#" class="nav-link p-0 mt-lg-2" data-bs-toggle="modal" data-bs-target="#modal-profile">
                 <div class="avatar avatar-online mx-auto d-none d-xl-block">
                     <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="">
                 </div>

@@ -33,13 +33,7 @@
                 </div>
             </aside>
 
-            <div  id="modal-profile" tabindex="-1" aria-labelledby="modal-profile" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-fullscreen-xl-down">
-                        <!-- Modal body -->
-                         @yield('modal')
-                        <!-- Modal body -->
-                </div>
-            </div>
+            @include('includes.modal')
 
         </div>
         <x:notify-messages />
