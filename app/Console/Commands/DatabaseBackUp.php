@@ -38,9 +38,9 @@ class DatabaseBackUp extends Command
      */
     public function handle()
     {
-        $filename = "backup-" . Carbon::now()->format('YmdHs') . ".gz";
+        $filename = "backup-" . Carbon::now()->format('Y-m-d') . ".sql";
 
-        $command = "mysqldump --user=" . config('services.backup.db_username') ." --password=" . config('services.backup.db_password') . " --host=" . config('services.backup.db_host') . " " . config('services.backup.db_database') . "  | gzip > " . "/home/ajay/Documents/db_dump" . $filename;
+        $command = "mysqldump --user=" . config('services.backup.db_username') ." --password=" . config('services.backup.db_password') . " --host=" . config('services.backup.db_host') . " " . config('services.backup.db_database') . "   > " . "/home/ajay/Documents/db_dump/" . $filename;
 
         $returnVar = NULL;
         $output  = NULL;

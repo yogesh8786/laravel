@@ -1,0 +1,311 @@
+[2021-07-16 16:18:19.744] [exthost] [info] extension host started
+[2021-07-16 16:18:20.420] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-07-16 16:18:20.421] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-07-16 16:18:20.464] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-07-16 16:18:20.466] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-07-16 16:18:20.506] [exthost] [info] ExtensionService#_doActivateExtension amiralizadeh9480.laravel-extra-intellisense {"startup":false,"extensionId":{"value":"amiralizadeh9480.laravel-extra-intellisense","_lower":"amiralizadeh9480.laravel-extra-intellisense"},"activationEvent":"onLanguage:php"}
+[2021-07-16 16:18:20.508] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js
+[2021-07-16 16:18:20.522] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-07-16 16:18:20.522] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-07-16 16:18:20.596] [exthost] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":false,"extensionId":{"value":"codingyu.laravel-goto-view","_lower":"codingyu.laravel-goto-view"},"activationEvent":"onLanguage:php"}
+[2021-07-16 16:18:20.597] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/codingyu.laravel-goto-view-1.3.4/out/src/extension
+[2021-07-16 16:18:20.609] [exthost] [info] ExtensionService#_doActivateExtension ctf0.laravel-goto-view {"startup":false,"extensionId":{"value":"ctf0.laravel-goto-view","_lower":"ctf0.laravel-goto-view"},"activationEvent":"onLanguage:php"}
+[2021-07-16 16:18:20.610] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ctf0.laravel-goto-view-0.3.9/out/src/extension
+[2021-07-16 16:18:20.814] [exthost] [info] ExtensionService#_doActivateExtension rifi2k.format-html-in-php {"startup":false,"extensionId":{"value":"rifi2k.format-html-in-php","_lower":"rifi2k.format-html-in-php"},"activationEvent":"onLanguage:php"}
+[2021-07-16 16:18:20.814] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/rifi2k.format-html-in-php-1.7.0/out/extension
+[2021-07-16 16:18:21.115] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-16 16:18:21.115] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-07-16 16:18:21.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-16 16:18:21.131] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-07-16 16:18:21.236] [exthost] [info] ExtensionService#_doActivateExtension animus-coop.vscode-phpstorm-formatter {"startup":true,"extensionId":{"value":"animus-coop.vscode-phpstorm-formatter","_lower":"animus-coop.vscode-phpstorm-formatter"},"activationEvent":"*"}
+[2021-07-16 16:18:21.237] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/animus-coop.vscode-phpstorm-formatter-0.0.6/built/extension.js
+[2021-07-16 16:18:21.245] [exthost] [info] ExtensionService#_doActivateExtension apility.beautify-blade {"startup":true,"extensionId":{"value":"apility.beautify-blade","_lower":"apility.beautify-blade"},"activationEvent":"*"}
+[2021-07-16 16:18:21.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/apility.beautify-blade-1.0.1/extension
+[2021-07-16 16:18:21.380] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"extensionId":{"value":"austenc.laravel-blade-spacer","_lower":"austenc.laravel-blade-spacer"},"activationEvent":"*"}
+[2021-07-16 16:18:21.380] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/austenc.laravel-blade-spacer-2.1.3/out/extension
+[2021-07-16 16:18:21.383] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2021-07-16 16:18:21.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-07-16 16:18:21.466] [exthost] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"extensionId":{"value":"Sophisticode.php-formatter","_lower":"sophisticode.php-formatter"},"activationEvent":"*"}
+[2021-07-16 16:18:21.466] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2021-07-16 16:18:21.500] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller {"startup":true,"extensionId":{"value":"stef-k.laravel-goto-controller","_lower":"stef-k.laravel-goto-controller"},"activationEvent":"*"}
+[2021-07-16 16:18:21.500] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/extension
+[2021-07-16 16:18:21.522] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-07-16 16:18:21.522] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-07-16 16:18:21.629] [exthost] [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan {"startup":true,"extensionId":{"value":"ryannaddy.laravel-artisan","_lower":"ryannaddy.laravel-artisan"},"activationEvent":"workspaceContains:**/artisan"}
+[2021-07-16 16:18:21.629] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ryannaddy.laravel-artisan-0.0.28/out/src/extension
+[2021-07-16 16:18:24.198] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-16 16:18:24.198] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-07-16 16:18:25.072] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-16 16:18:25.073] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-16 16:18:25.665] [exthost] [info] eager extensions activated
+[2021-07-16 16:18:25.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-16 16:18:25.992] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-16 16:18:26.027] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-16 16:18:26.027] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-16 16:18:26.041] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-16 16:18:26.041] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-16 16:18:26.048] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-07-16 16:18:26.048] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-7.1.1/dist/extension
+[2021-07-16 16:18:26.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-07-16 16:18:26.599] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-07-16 16:22:02.165] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:22:21.232] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:11.922] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:17.016] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:22.201] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:27.304] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:32.418] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:37.524] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:42.617] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:47.705] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:23:52.794] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:24:07.917] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:25:37.001] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:25:42.095] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:25:47.183] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+[2021-07-16 16:28:07.887] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:28:20.815] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:28:25.910] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:28:35.450] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:28:57.700] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:29:32.418] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:29:42.552] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:30:00.562] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:30:43.180] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:30:48.295] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:31:53.009] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:32:47.330] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:32:52.428] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:32:57.533] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:33:02.632] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:33:24.086] [exthost] [info] ExtensionService#_doActivateExtension amirmarmul.laravel-blade-vscode {"startup":false,"extensionId":{"value":"amirmarmul.laravel-blade-vscode","_lower":"amirmarmul.laravel-blade-vscode"},"activationEvent":"onLanguage:blade"}
+[2021-07-16 16:33:24.087] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/amirmarmul.laravel-blade-vscode-2.0.3/dist/extension.js
+[2021-07-16 16:33:24.203] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"extensionId":{"value":"onecentlin.laravel-blade","_lower":"onecentlin.laravel-blade"},"activationEvent":"onLanguage:blade"}
+[2021-07-16 16:33:24.204] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/onecentlin.laravel-blade-1.25.0/out/extension
+[2021-07-16 16:33:24.303] [exthost] [info] ExtensionService#_doActivateExtension shufo.vscode-blade-formatter {"startup":false,"extensionId":{"value":"shufo.vscode-blade-formatter","_lower":"shufo.vscode-blade-formatter"},"activationEvent":"onLanguage:blade"}
+[2021-07-16 16:33:24.303] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/shufo.vscode-blade-formatter-0.7.14/extension.js
+[2021-07-16 16:33:43.978] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:34:39.435] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:34:44.534] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:35:38.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-07-16 16:35:38.045] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-07-16 16:35:42.727] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:35:49.972] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:35:55.230] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:36:01.346] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:36:27.468] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:36:44.246] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:37:15.239] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:37:20.347] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:37:28.335] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:37:33.438] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:38:37.282] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:39:01.805] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:39:06.910] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:39:30.030] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:39:35.127] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:39:49.768] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:39:54.884] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:40:02.771] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:40:07.881] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:40:17.419] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:40:22.555] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:41:29.192] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-07-16 16:41:29.196] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:87663
+	at async M.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172799)
+[2021-07-16 16:41:35.377] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:41:40.478] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:41:57.791] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:02.909] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:08.003] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:22.248] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:27.360] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:32.467] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:37.585] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:42:43.762] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:43:21.847] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:43:28.423] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:49:17.601] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:49:45.387] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:49:51.134] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 266
+[2021-07-16 16:50:05.170] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:50:34.061] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:50:39.171] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:50:44.272] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:50:52.577] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:50:57.712] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:51:22.566] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:51:32.044] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:51:56.577] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:53:51.500] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:54:07.196] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:54:12.300] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:54:46.640] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 267
+[2021-07-16 16:55:38.308] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 16:59:39.756] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 16:59:44.938] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:01:11.845] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:01:16.955] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:02:08.286] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:02:26.555] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:02:31.744] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:02:57.179] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:03:02.299] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:03:07.403] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:03:12.537] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:03:17.657] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:03:55.211] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:04:13.842] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:04:56.096] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:06:31.982] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:08:18.629] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:08:29.797] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:08:34.899] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:10:08.269] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:10:55.061] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:27:24.030] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:27:29.143] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:29:00.746] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-07-16 17:29:00.749] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:92057
+[2021-07-16 17:29:25.765] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:29:37.165] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:44:43.783] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:44:48.908] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:44:54.013] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:45:00.027] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:45:05.123] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:45:10.211] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:46:01.259] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:46:53.764] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:46:59.768] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:47:04.859] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:47:09.956] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:47:32.183] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-07-16 17:47:32.183] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:88457
+[2021-07-16 17:51:03.778] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-16 17:51:03.792] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-16 17:51:03.822] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-16 17:51:03.824] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-16 17:51:04.528] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-16 17:51:04.529] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-16 17:51:52.349] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:52:08.386] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:52:13.500] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 17:59:15.645] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:00:17.961] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:00:23.067] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:00:30.673] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:01:27.165] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:01:32.304] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:01:37.414] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:02:49.608] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:02:54.739] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:03:14.541] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:03:19.649] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:03:24.758] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:03:29.868] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:03:34.957] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:03:42.167] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268
+[2021-07-16 18:07:06.769] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 268

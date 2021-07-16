@@ -1,0 +1,5 @@
+Initializing document watcher...
+chat_system/database/seeders/RoleSeeder.php: {"insertSpaces":true,"tabSize":4}
+chat_system/database/seeders/UserSeeder.php: {"insertSpaces":true,"tabSize":4}
+chat_system/app/Http/Controllers/User/AuthController.php: {"insertSpaces":true,"tabSize":4}
+chat_system/app/Http/Controllers/User/AuthController.php: {"insertSpaces":true,"tabSize":4}

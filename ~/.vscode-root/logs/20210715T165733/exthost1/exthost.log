@@ -1,0 +1,826 @@
+[2021-07-15 16:57:38.371] [exthost] [info] extension host started
+[2021-07-15 16:57:39.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-07-15 16:57:39.721] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-07-15 16:57:39.746] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-07-15 16:57:39.747] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-07-15 16:57:39.789] [exthost] [info] ExtensionService#_doActivateExtension amiralizadeh9480.laravel-extra-intellisense {"startup":false,"extensionId":{"value":"amiralizadeh9480.laravel-extra-intellisense","_lower":"amiralizadeh9480.laravel-extra-intellisense"},"activationEvent":"onLanguage:php"}
+[2021-07-15 16:57:39.789] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js
+[2021-07-15 16:57:39.803] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-07-15 16:57:39.804] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-07-15 16:57:39.880] [exthost] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":false,"extensionId":{"value":"codingyu.laravel-goto-view","_lower":"codingyu.laravel-goto-view"},"activationEvent":"onLanguage:php"}
+[2021-07-15 16:57:39.880] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/codingyu.laravel-goto-view-1.3.4/out/src/extension
+[2021-07-15 16:57:39.899] [exthost] [info] ExtensionService#_doActivateExtension ctf0.laravel-goto-view {"startup":false,"extensionId":{"value":"ctf0.laravel-goto-view","_lower":"ctf0.laravel-goto-view"},"activationEvent":"onLanguage:php"}
+[2021-07-15 16:57:39.899] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ctf0.laravel-goto-view-0.3.9/out/src/extension
+[2021-07-15 16:57:40.198] [exthost] [info] ExtensionService#_doActivateExtension rifi2k.format-html-in-php {"startup":false,"extensionId":{"value":"rifi2k.format-html-in-php","_lower":"rifi2k.format-html-in-php"},"activationEvent":"onLanguage:php"}
+[2021-07-15 16:57:40.199] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/rifi2k.format-html-in-php-1.7.0/out/extension
+[2021-07-15 16:57:40.495] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-15 16:57:40.495] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-07-15 16:57:40.506] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-15 16:57:40.507] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-07-15 16:57:40.613] [exthost] [info] ExtensionService#_doActivateExtension animus-coop.vscode-phpstorm-formatter {"startup":true,"extensionId":{"value":"animus-coop.vscode-phpstorm-formatter","_lower":"animus-coop.vscode-phpstorm-formatter"},"activationEvent":"*"}
+[2021-07-15 16:57:40.613] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/animus-coop.vscode-phpstorm-formatter-0.0.6/built/extension.js
+[2021-07-15 16:57:40.626] [exthost] [info] ExtensionService#_doActivateExtension apility.beautify-blade {"startup":true,"extensionId":{"value":"apility.beautify-blade","_lower":"apility.beautify-blade"},"activationEvent":"*"}
+[2021-07-15 16:57:40.626] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/apility.beautify-blade-1.0.1/extension
+[2021-07-15 16:57:41.014] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"extensionId":{"value":"austenc.laravel-blade-spacer","_lower":"austenc.laravel-blade-spacer"},"activationEvent":"*"}
+[2021-07-15 16:57:41.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/austenc.laravel-blade-spacer-2.1.3/out/extension
+[2021-07-15 16:57:41.033] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2021-07-15 16:57:41.033] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-07-15 16:57:41.105] [exthost] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"extensionId":{"value":"Sophisticode.php-formatter","_lower":"sophisticode.php-formatter"},"activationEvent":"*"}
+[2021-07-15 16:57:41.105] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2021-07-15 16:57:41.146] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller {"startup":true,"extensionId":{"value":"stef-k.laravel-goto-controller","_lower":"stef-k.laravel-goto-controller"},"activationEvent":"*"}
+[2021-07-15 16:57:41.146] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/extension
+[2021-07-15 16:57:41.161] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-07-15 16:57:41.162] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-07-15 16:57:41.963] [exthost] [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan {"startup":true,"extensionId":{"value":"ryannaddy.laravel-artisan","_lower":"ryannaddy.laravel-artisan"},"activationEvent":"workspaceContains:**/artisan"}
+[2021-07-15 16:57:41.967] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ryannaddy.laravel-artisan-0.0.28/out/src/extension
+[2021-07-15 16:57:43.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-15 16:57:43.742] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-07-15 16:57:44.352] [exthost] [info] eager extensions activated
+[2021-07-15 16:57:44.655] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-15 16:57:44.656] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-15 16:57:45.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-15 16:57:45.308] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-15 16:57:45.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-15 16:57:45.352] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-15 16:57:45.373] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-15 16:57:45.373] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-15 16:57:45.383] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-07-15 16:57:45.384] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-7.1.1/dist/extension
+[2021-07-15 16:57:46.097] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-07-15 16:57:46.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-07-15 17:12:29.247] [exthost] [info] ExtensionService#_doActivateExtension amirmarmul.laravel-blade-vscode {"startup":false,"extensionId":{"value":"amirmarmul.laravel-blade-vscode","_lower":"amirmarmul.laravel-blade-vscode"},"activationEvent":"onLanguage:blade"}
+[2021-07-15 17:12:29.247] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/amirmarmul.laravel-blade-vscode-2.0.3/dist/extension.js
+[2021-07-15 17:12:29.578] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"extensionId":{"value":"onecentlin.laravel-blade","_lower":"onecentlin.laravel-blade"},"activationEvent":"onLanguage:blade"}
+[2021-07-15 17:12:29.578] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/onecentlin.laravel-blade-1.25.0/out/extension
+[2021-07-15 17:12:29.662] [exthost] [info] ExtensionService#_doActivateExtension shufo.vscode-blade-formatter {"startup":false,"extensionId":{"value":"shufo.vscode-blade-formatter","_lower":"shufo.vscode-blade-formatter"},"activationEvent":"onLanguage:blade"}
+[2021-07-15 17:12:29.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/shufo.vscode-blade-formatter-0.7.14/extension.js
+[2021-07-15 17:23:14.461] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:14.463] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:15.836] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:15.836] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:25.167] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:25.167] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:25.662] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:25.662] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:29.720] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:29.720] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:36.947] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:36.948] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:44.902] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:44.902] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:49.228] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:49.228] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:54.827] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:23:54.827] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:00.923] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:24:00.923] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:06.308] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:24:06.308] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:08.025] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:24:08.025] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:13.947] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:24:13.947] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:14.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-07-15 17:24:14.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-07-15 17:24:17.338] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:24:17.338] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:29.459] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:24:29.460] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:26:17.131] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:26:17.132] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:26:17.879] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:26:17.880] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:26:29.776] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:26:29.776] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:28:26.930] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:28:26.930] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:28:55.210] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:28:55.210] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:01.436] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:01.436] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:04.169] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:04.169] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:05.729] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:05.729] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:06.083] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:06.083] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:06.376] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:06.376] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:10.605] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:10.605] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:11.106] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:11.106] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:11.520] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:11.520] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:53.362] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:29:53.362] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:30:26.646] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:30:26.646] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:31:06.484] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:31:06.484] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:41:11.548] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:41:11.549] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:41:11.601] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:41:11.601] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:41:12.293] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:41:12.293] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:41.923] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:43:41.926] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:41.972] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:43:41.973] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:42.670] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:43:42.673] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:51.182] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:43:51.183] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:53.440] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:43:53.440] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:44:00.089] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 17:44:00.089] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:44:36.878] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:44:36.878] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:48:15.852] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-07-15 17:48:15.854] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:90503
+[2021-07-15 17:51:34.870] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-07-15 17:51:34.870] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:93115
+[2021-07-15 17:52:02.955] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:02.955] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:06.236] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:06.236] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:17.913] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:17.913] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:18.812] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:18.812] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:21.226] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:21.226] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:21.806] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:21.806] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:27.175] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:27.176] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:32.760] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:32.760] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:34.915] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:34.915] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:38.624] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:38.624] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:39.356] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:39.356] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:39.356] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:39.356] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:41.776] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:41.776] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:41.777] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:41.777] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:43.379] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:43.379] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:43.379] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:43.379] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:46.457] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:46.458] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:47.503] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:47.503] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:50.722] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:50.722] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:52.281] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:52.281] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:53.111] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:53.111] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:56.695] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:56.695] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:57.204] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:52:57.204] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:00.551] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:53:00.552] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:01.142] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:53:01.142] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:07.304] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:53:07.304] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:09.113] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:53:09.113] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:17.127] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:56:17.127] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:20.396] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:56:20.396] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:24.477] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:56:24.477] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:25.919] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:56:25.919] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:37.368] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 17:56:37.368] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:01:58.450] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:01:58.451] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:01:59.224] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:01:59.224] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:17.547] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:17.547] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:18.655] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:18.655] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:19.001] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:19.001] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:23.083] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:23.083] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:23.467] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:23.467] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:26.439] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:26.439] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:27.289] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:27.289] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:27.578] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:27.578] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:28.145] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:28.145] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:35.740] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:35.740] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:36.616] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:36.616] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:38.727] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:38.727] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:39.826] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:39.826] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:52.426] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:52.426] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:56.147] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:02:56.147] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:01.511] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:01.511] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:03.102] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:03.102] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:03.421] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:03.421] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:03.886] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:03.886] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:05.019] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:05.019] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:05.322] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:05.323] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:05.930] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:05.930] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:20.892] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:03:20.892] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:07:52.826] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:07:52.827] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:07:54.666] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:07:54.666] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:08:24.458] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:08:24.458] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:08:32.760] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:08:32.760] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:08.432] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:10:08.432] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:11.429] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:10:11.429] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:12.461] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:10:12.462] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:20.667] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:10:20.667] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:13:56.256] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:13:56.256] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:00.191] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:14:00.191] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:03.734] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:14:03.734] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:07.014] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:14:07.014] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:07.295] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:14:07.295] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:08.265] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:14:08.265] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:29.677] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-07-15 18:14:29.678] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+	at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+	at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:92057
+[2021-07-15 18:15:01.336] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:15:01.336] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:02.907] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:15:02.907] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:35.496] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:15:35.496] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:58.009] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:15:58.009] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:16:12.042] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:16:12.042] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:16:13.108] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 18:16:13.108] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:01.454] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:02:01.454] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:07.551] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:02:07.551] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:09.722] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:02:09.722] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:12.988] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:02:12.988] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:50.922] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:02:50.922] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:52.186] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:02:52.186] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:13.158] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:13.158] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:15.082] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:15.082] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:18.535] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:18.535] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:22.369] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:22.369] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:51.076] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:51.076] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:55.708] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:55.708] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:56.756] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:56.756] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:57.209] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:57.209] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:58.365] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:58.365] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:58.763] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:58.763] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:59.839] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:03:59.839] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:03.216] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:03.216] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:04.855] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:04.855] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:11.795] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:11.795] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:12.232] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:12.232] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:13.647] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:13.647] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:15.919] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:15.919] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:17.302] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:17.302] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:21.681] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:21.681] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:28.271] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:28.271] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:29.327] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:29.327] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:30.863] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:30.863] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:47.382] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:04:47.383] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:10:52.835] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 19:10:52.836] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 19:10:53.580] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-07-15 19:10:53.581] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 19:13:57.625] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:13:57.625] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:10.831] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:10.831] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:13.416] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:13.416] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:16.267] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:16.267] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:17.481] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:17.481] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:19.849] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:19.849] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:21.612] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:21.612] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:23.974] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:14:23.974] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:15.487] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:15.487] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:17.842] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:17.842] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:20.180] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:20.180] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:21.673] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:21.673] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:27.976] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:27.976] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:30.073] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:30.073] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:34.165] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:34.165] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:36.088] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:36.088] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:44.134] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:44.134] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:45.191] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:45.191] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:50.196] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:50.196] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:51.938] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:51.939] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:56.943] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:16:56.944] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:17:03.985] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:17:03.985] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:17:27.662] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:17:27.662] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:17:34.301] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:17:34.301] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:19:11.320] [exthost] [error] [ctf0.laravel-goto-view] provider FAILED
+[2021-07-15 19:19:11.320] [exthost] [error] Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:24:51.814] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-15 19:24:52.960] [exthost] [info] exiting with code 0

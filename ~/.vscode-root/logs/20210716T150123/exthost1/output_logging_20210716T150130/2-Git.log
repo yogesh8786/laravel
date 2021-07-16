@@ -1,0 +1,25 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /var/www/html/chat_system
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :database/migrations/2014_10_12_000000_create_users_table.php
+> git ls-files --stage -- /var/www/html/chat_system/database/migrations/2014_10_12_000000_create_users_table.php
+> git cat-file -s 3421357a836936af60d5ad47a2e5d1af4b936834
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :database/seeders/RoleSeeder.php
+> git ls-files --stage -- /var/www/html/chat_system/database/seeders/RoleSeeder.php
+> git cat-file -s 464da253199cc2bd109c04ce5ae6b41d9139cee7
+> git show --textconv :database/seeders/UserSeeder.php
+> git ls-files --stage -- /var/www/html/chat_system/database/seeders/UserSeeder.php
+> git cat-file -s 2415985fa58443396fc96d1f534a1747c8179e51
+> git show --textconv :app/Http/Controllers/User/AuthController.php
+> git ls-files --stage -- /var/www/html/chat_system/app/Http/Controllers/User/AuthController.php

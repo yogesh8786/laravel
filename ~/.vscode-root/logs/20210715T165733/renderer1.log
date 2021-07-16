@@ -1,0 +1,357 @@
+[2021-07-15 17:23:14.467] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:15.837] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:25.168] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:29.721] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:36.949] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:44.906] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:49.229] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:23:54.829] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:00.925] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:06.310] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:08.026] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:13.953] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:17.339] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:24:29.461] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:26:17.151] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:26:29.778] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:28:26.938] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/layouts/admin.blade.php'
+[2021-07-15 17:28:55.212] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:01.438] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:04.171] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:05.731] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:10.606] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:29:53.363] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:30:26.658] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:31:06.487] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:41:11.600] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:41.965] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:51.185] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:43:53.443] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:44:00.091] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 17:44:36.880] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:02.957] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:06.237] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:17.915] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:21.229] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:27.177] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:32.761] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:34.921] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:38.644] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:41.777] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:43.383] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:46.460] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:47.506] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:50.728] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:52.282] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:52:56.696] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:00.553] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:07.308] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:53:09.116] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:17.129] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:20.398] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:24.478] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:25.921] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 17:56:37.369] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:01:58.455] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:17.549] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:18.656] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:23.085] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:26.445] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:27.580] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:35.743] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:38.740] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:39.828] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:52.429] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:02:56.153] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:01.513] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:03.107] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:05.021] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:03:20.909] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:07:52.829] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:07:54.667] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:08:24.469] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:08:32.762] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:08.433] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:11.430] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:12.465] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:10:20.671] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:13:56.258] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:00.195] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:03.735] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:07.016] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:14:08.267] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:01.337] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:02.908] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:35.498] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:15:58.018] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:16:12.044] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 18:16:13.113] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:01.457] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:07.552] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:09.724] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:12.989] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:50.925] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:02:52.191] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:13.164] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:15.087] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:18.536] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:22.370] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:51.077] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:55.711] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:56.757] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:58.368] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:03:59.841] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:03.221] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:04.856] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:11.803] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:13.651] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:15.926] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:17.306] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:21.685] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:28.276] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:29.329] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:30.864] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:04:47.384] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:10:52.852] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+	at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+	at new Promise (<anonymous>)
+	at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+	at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+	at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+	at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+	at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+	at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+	at Socket.emit (events.js:315:20)
+	at Socket.EventEmitter.emit (domain.js:467:12)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 19:13:57.626] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:10.833] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:13.417] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:16.269] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:17.482] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:19.850] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:21.613] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:14:23.977] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:15.489] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:17.843] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:20.183] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:21.674] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:27.979] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:30.075] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:34.168] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:36.090] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:44.139] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:45.194] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:50.201] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:51.939] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:16:56.946] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:17:03.991] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:17:27.668] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:17:34.303] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
+[2021-07-15 19:19:11.321] [renderer1] [error] ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php': Error: ENOENT: no such file or directory, open '/var/www/html/chat_system/resources/views/includes/admin_navbar.blade.php'
