@@ -57,4 +57,12 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class);
     }
 
+    // public function getProfilePhotoUrlAttribute()
+    // {
+    //     if (preg_match('(https://|http://)', $this->profile_photo) === 1) {
+    //         return $this->profile_photo;
+    //     }
+    //     return !empty($this->profile_photo) ? asset("uploads/users/images/$this->profile_photo") : asset('assets/img/user-icon.png');
+    // }
+
 }

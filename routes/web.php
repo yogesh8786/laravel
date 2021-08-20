@@ -23,8 +23,8 @@ Route::get('/', function () {
 Route::namespace('App\Http\Controllers')->group(function() {
       Route::group([ 'namespace' => 'User'], function() {
         Route::group(['middleware' => 'guest'], function() {
-            Route::get('signin', 'AuthController@signinform')->name('signin');
-            Route::post('signin', 'AuthController@signin');
+            Route::get('sign-in', 'AuthController@signinform')->name('signin');
+            Route::post('sign-in', 'AuthController@signin');
             Route::get('signup', 'AuthController@signupform')->name('signup');
             Route::post('signup', 'AuthController@signup');
             Route::get('forget-password','AuthController@forgetForm')->name('forgetPassword');
@@ -38,9 +38,9 @@ Route::namespace('App\Http\Controllers')->group(function() {
 
 
         Route::group(['middleware' => ['auth', 'user']], function() {
+            Route::get('friends', 'FriendController@index')->name('friends');
             Route::get('dashboard', 'ChatController@chatsForm')->name('dashboard');
             Route::get('create_chat', 'ChatController@createChatForm')->name('create_chat');
-            Route::get('friends', 'FriendController@friendsForm')->name('friends');
             Route::get('notification', 'NotificationController@notificationForm')->name('notifications');
             Route::get('settings', 'SettingController@settingForm')->name('settings');
             Route::get('support', 'SupportController@supportForm')->name('support');

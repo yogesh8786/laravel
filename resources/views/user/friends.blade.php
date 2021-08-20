@@ -1,6 +1,6 @@
 @extends('layouts.user')
 @section('content')
-   <div class="d-flex flex-column h-100">
+    <div class="d-flex flex-column h-100">
         <div class="hide-scrollbar">
             <div class="container py-8">
 
@@ -15,16 +15,22 @@
                         <div class="input-group">
                             <div class="input-group-text">
                                 <div class="icon icon-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-search">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    </svg>
                                 </div>
                             </div>
 
-                            <input type="text" class="form-control form-control-lg ps-0" placeholder="Search messages or users" aria-label="Search for messages or users...">
+                            <input type="text" class="form-control form-control-lg ps-0"
+                                placeholder="Search messages or users" aria-label="Search for messages or users...">
                         </div>
                     </form>
 
                     <!-- Invite button -->
-                    <div class="mt-5">
+                    {{-- <div class="mt-5">
                         <a href="#" class="btn btn-lg btn-primary w-100 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#modal-invite">
                             Find Friends
 
@@ -32,445 +38,75 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
                             </span>
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <!-- List -->
                 <div class="card-list">
-                    <div class="my-5">
-                        <small class="text-uppercase text-muted">B</small>
-                    </div>
+                    @forelse ($groupedUsers as $key=>$users)
+                        <div class="my-5">
+                            <small class="text-uppercase text-muted">{{ $key }}</small>
+                        </div>
+                        @foreach ($users as $user)
+                             <!-- Card -->
+                        <div class="card border-0">
+                            <div class="card-body">
 
-                    <!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col-auto">
+                                        <a href="#" class="avatar ">
 
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar ">
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/6.jpg') }}" alt="">
+                                            <img class="avatar-img" src="{{ asset('assets/img/avatars/6.jpg') }}" alt="">
 
 
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Bill Marrow</a></h5>
-                                    <p>last seen 3 days ago</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
                                         </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
                                     </div>
+
+                                    <div class="col">
+                                        <h5><a href="#">{{ $user->name }}</a></h5>
+                                        <p>last seen 3 days ago</p>
+                                    </div>
+
+                                    <div class="col-auto">
+                                        <!-- Dropdown -->
+                                        <div class="dropdown">
+                                            <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-more-vertical">
+                                                    <circle cx="12" cy="12" r="1"></circle>
+                                                    <circle cx="12" cy="5" r="1"></circle>
+                                                    <circle cx="12" cy="19" r="1"></circle>
+                                                </svg>
+                                            </a>
+
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">New message</a></li>
+                                                <li><a class="dropdown-item" href="#">Edit contact</a>
+                                                </li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-danger" href="#">Block user</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>
-
                         </div>
-                    </div>
-                    <!-- Card -->
+                        <!-- Card -->
+                        @endforeach
+                       
+                    @empty
 
-                    <div class="my-5">
-                        <small class="text-uppercase text-muted">D</small>
-                    </div>
+                    @endforelse
 
-                    <!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar ">
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/5.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Damian Binder</a></h5>
-                                    <p>last seen within a week</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card --><!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar avatar-online">
-
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/9.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Don Knight</a></h5>
-                                    <p>online</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card -->
-
-                    <div class="my-5">
-                        <small class="text-uppercase text-muted">E</small>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar avatar-online">
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/8.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Elise Dennis</a></h5>
-                                    <p>online</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card -->
-
-                    <div class="my-5">
-                        <small class="text-uppercase text-muted">M</small>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar ">
-
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Marshall Wallaker</a></h5>
-                                    <p>last seen within a month</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card --><!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar ">
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/11.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Mila White</a></h5>
-                                    <p>last seen a long time ago</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card -->
-
-                    <div class="my-5">
-                        <small class="text-uppercase text-muted">O</small>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar avatar-online">
-
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/12.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Ollie Chandler</a></h5>
-                                    <p>online</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card -->
-
-                    <div class="my-5">
-                        <small class="text-uppercase text-muted">W</small>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar ">
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/4.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">Warren White</a></h5>
-                                    <p>last seen recently</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card --><!-- Card -->
-                    <div class="card border-0">
-                        <div class="card-body">
-
-                            <div class="row align-items-center gx-5">
-                                <div class="col-auto">
-                                    <a href="#" class="avatar avatar-online">
-
-                                        <img class="avatar-img" src="{{ asset('assets/img/avatars/7.jpg') }}" alt="">
-
-
-                                    </a>
-                                </div>
-
-                                <div class="col">
-                                    <h5><a href="#">William Wright</a></h5>
-                                    <p>online</p>
-                                </div>
-
-                                <div class="col-auto">
-                                    <!-- Dropdown -->
-                                    <div class="dropdown">
-                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">New message</a></li>
-                                            <li><a class="dropdown-item" href="#">Edit contact</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item text-danger" href="#">Block user</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Card -->
                 </div>
 
             </div>
