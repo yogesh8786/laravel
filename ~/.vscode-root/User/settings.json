@@ -1,9 +1,0 @@
-{
-    "[php]": {
-        "editor.defaultFormatter": "apility.beautify-blade"
-    },
-    "files.autoSave": "afterDelay",
-    "[blade]": {
-        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-    }
-}

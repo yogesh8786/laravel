@@ -1,4 +1,0 @@
-[Info  - 3:16:10 pm] Initialising intelephense 1.7.1
-[Info  - 3:16:10 pm] Reading state from /var/www/html/chat_system/~/.vscode-root/User/workspaceStorage/a1724bc378757307ba4f9369e51b622d/bmewburn.vscode-intelephense-client/475f69b4.
-[Info  - 3:16:12 pm] Initialised in 2765 ms
-[Warn  - 3:16:13 pm] file:///var/www/html/chat_system/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
