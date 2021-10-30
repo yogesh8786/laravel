@@ -48,7 +48,7 @@
         </li> --}}
 
         <!-- Friends -->
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link {{ request()->segment(1) == 'friends' ? 'active':'' }} py-0 py-lg-8" id="tab-friends" href="{{ route('friends') }}" title="Friends">
                 <div class="icon icon-xl">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -61,7 +61,7 @@
                     </svg>
                 </div>
             </a>
-        </li>
+        </li> --}}
 
         <!-- Chats -->
         <li class="nav-item">
@@ -73,14 +73,14 @@
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                     </svg>
                     <div class="badge badge-circle bg-primary">
-                        <span>4</span>
+                        <span>{{ $totalUnSeenMessage }}</span>
                     </div>
                 </div>
             </a>
         </li>
 
         <!-- Notification -->
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link {{ request()->segment(1) == 'notification' ? 'active':'' }} py-0 py-lg-8" id="tab-notifications" href="{{ route('notifications') }}"
                 title="Notifications" role="tab">
                 <div class="icon icon-xl">
@@ -92,28 +92,19 @@
                     </svg>
                 </div>
             </a>
-        </li>
+        </li> --}}
 
         <!-- Support -->
-        {{-- <li class="nav-item d-none d-xl-block flex-xl-grow-1">
-            <a class="nav-link py-0 py-lg-8" id="tab-support" href="{{ route('support') }}" title="Support">
+        <li class="nav-item d-none d-xl-block flex-xl-grow-1">
+            <a class="nav-link py-0 py-lg-8" id="tab-support" data-bs-toggle="modal" data-bs-target="#modal-changepassword">
                 <div class="icon icon-xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    {{-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-layout">
                         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                         <line x1="3" y1="9" x2="21" y2="9"></line>
                         <line x1="9" y1="21" x2="9" y2="9"></line>
-                    </svg>
-                </div>
-            </a>
-        </li> --}}
-
-        <!-- Settings -->
-        {{-- <li class="nav-item d-none d-xl-block">
-            <a class="nav-link py-0 py-lg-8" id="tab-settings" href="{{ route('settings') }}" title="Settings"
-                role="tab">
-                <div class="icon icon-xl">
+                    </svg> --}}
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-settings">
@@ -124,16 +115,32 @@
                     </svg>
                 </div>
             </a>
-        </li> --}}
+        </li>
+
+        <!-- Settings -->
+        <li class="nav-item d-none d-xl-block">
+            <a class="nav-link py-0 py-lg-8" data-bs-toggle="modal" data-bs-target="#modal-invite">
+                <div class="icon icon-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-users">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                </div>
+            </a>
+        </li>
 
         <!-- Profile -->
         <li class="nav-item">
             <a href="#" class="nav-link p-0 mt-lg-2" data-bs-toggle="modal" data-bs-target="#modal-profile">
                 <div class="avatar avatar-online mx-auto d-none d-xl-block">
-                    <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="">
+                    <img class="avatar-img" src="{{ Auth::user()->profile_photo_url }}" alt="">
                 </div>
                 <div class="avatar avatar-online avatar-xs d-xl-none">
-                    <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="">
+                    <img class="avatar-img" src="{{ Auth::user()->profile_photo_url }}" alt="">
                 </div>
             </a>
         </li>

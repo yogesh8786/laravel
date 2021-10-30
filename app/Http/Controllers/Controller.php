@@ -10,4 +10,22 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function fileUpload($file, $dirPath)
+    {
+        if ($file->isValid()) {
+            $extension = $file->extension();
+            $mimeType = $file->getClientMimeType();
+            $filename = time().'-'.str_replace(' ', '-', $file->getClientOriginalName());
+            $path = $file->move("$dirPath", $filename);
+
+            return [
+                'name' => $filename,
+                'mime_type' => $mimeType,
+                'path' => $path,
+                'extension' => $extension,
+            ];
+        }
+        return [];
+    }
 }

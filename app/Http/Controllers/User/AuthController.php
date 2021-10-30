@@ -134,4 +134,59 @@ class AuthController extends Controller
         return redirect(route('signin'));
     }
 
+    public function logout()
+    {
+        Auth::logout();
+        notify()->success('User Logout');
+        return redirect()->route('signin');
+    }
+
+    public function profileUpdate(Request $request)
+    {
+        $this->validate($request, [
+            'email' => 'required',
+            'name' => 'required',
+            'phone_number' => 'required',
+            'address' => 'required',
+            'bio' => 'required',
+        ]);
+
+        $user = User::find(Auth::user()->id);
+        $data = $request->except(['_token']);
+        if ($request->hasFile('profile_photo')) {
+            $data['profile_photo'] = $this->fileUpload($request->profile_photo, 'assets/img/user-img')['name'] ?? null;
+        }
+        $user->update($data);
+
+        notify()->success('Profile updated successfull');
+        return back();
+    }
+
+    public function changePassword(Request $request)
+    {
+        $request->validate([
+            'current_password' => 'required|min:8',
+            'new_password' => 'required|min:8|different:current_password|same:confirm_password',
+            'confirm_password' => 'required',
+        ]);
+
+        try {
+            $user = Auth::user();
+
+            if (\Hash::check($request->current_password, $user->password)) {
+                $newPassword = \Hash::make($request->new_password);
+                $user->update(['password' => $newPassword]);
+
+                notify()->success('Password updated successfully');
+                return back();
+            }
+            else{
+                notify()->warning('You have entered wrong current password');
+                return back();
+            }
+        } catch (\Exception $error) {
+            notify()->warning('Somthing went Wrong');
+            return back();
+        }
+    }
 }

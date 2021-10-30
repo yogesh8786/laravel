@@ -12,10 +12,9 @@ class FriendController extends Controller
     {
         $users = User::get();
 
-        $data['groupedUsers'] = $users->groupBy(function($item,$key) {
+     $data['groupedUsers'] = $users->groupBy(function($item,$key) {
             return $item->name[0];     //treats the name string as an array
-        })
-        ->sortBy(function($item,$key){      //sorts A-Z at the top level
+        })->sortBy(function($item,$key){      //sorts A-Z at the top level
                 return $key;
         });
 

@@ -34,16 +34,23 @@ Route::namespace('App\Http\Controllers')->group(function() {
 
         });
 
-            // Route::get('modal', 'ModalController@modalForm')->name('modal');
-
-
         Route::group(['middleware' => ['auth', 'user']], function() {
             Route::get('friends', 'FriendController@index')->name('friends');
             Route::get('dashboard', 'ChatController@chatsForm')->name('dashboard');
             Route::get('create_chat', 'ChatController@createChatForm')->name('create_chat');
+            Route::get('chating', 'ChatController@chating')->name('chating');
+            Route::post('sendMessage', 'ChatController@sendMessage')->name('sendMessage');
             Route::get('notification', 'NotificationController@notificationForm')->name('notifications');
             Route::get('settings', 'SettingController@settingForm')->name('settings');
             Route::get('support', 'SupportController@supportForm')->name('support');
+            Route::post('profileUpdate', 'AuthController@profileUpdate')->name('profileUpdate');
+            Route::post('changePassword', 'AuthController@changePassword')->name('changePassword');
+            Route::get('logout', 'AuthController@logout')->name('logout');
+
+            Route::get('deletemessage/{id}', 'ChatController@deletemessage')->name('deletemessage');
+
+
+
 
        });
     });

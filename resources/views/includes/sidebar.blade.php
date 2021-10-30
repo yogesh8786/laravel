@@ -1,4 +1,8 @@
 
+
+@php
+    $users = App\Models\User::where('id','!=',Auth::id());
+@endphp
                 <div class="tab-content h-100" role="tablist">
                     <!-- Create -->
                     <div class="tab-pane fade h-100" id="tab-content-create-chat" role="tabpanel">
@@ -323,10 +327,7 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar avatar-online">
-
-
                                                                         <span class="avatar-text">O</span>
-
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -356,10 +357,7 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar ">
-
                                                                         <img class="avatar-img" src="assets/img/avatars/4.jpg" alt="">
-
-
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -931,7 +929,7 @@
                                     <!-- Chats -->
                                     <div class="card-list">
                                         <!-- Card -->
-                                        <a href="chat-group.html" class="card border-0 text-reset">
+                                        {{-- <a href="chat-group.html" class="card border-0 text-reset">
                                             <div class="card-body">
                                                 <div class="row gx-5">
                                                     <div class="col-auto">
@@ -992,7 +990,7 @@
                                                     </div>
                                                 </div><!-- .row -->
                                             </div><!-- .card-footer -->
-                                        </a>
+                                        </a> --}}
                                         <!-- Card -->
 
                                         <!-- Card -->
@@ -1018,232 +1016,6 @@
 
                                                             <div class="badge badge-circle bg-primary ms-5">
                                                                 <span>3</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-empty.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar avatar-online">
-                                                            <img src="assets/img/avatars/8.jpg" alt="#" class="avatar-img">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Elise Dennis</h5>
-                                                            <span class="text-muted extra-small ms-2">08:35 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                is typing<span class='typing-dots'><span>.</span><span>.</span><span>.</span></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-direct.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar-group-trigon avatar-group-trigon-sm">
-                                                            <div class="avatar avatar-sm">
-                                                                <img class="avatar-img" src="assets/img/avatars/7.jpg" alt="#">
-                                                            </div>
-
-                                                            <div class="avatar avatar-sm">
-                                                                <img class="avatar-img" src="assets/img/avatars/9.jpg" alt="#">
-                                                            </div>
-
-                                                            <div class="avatar avatar-sm">
-                                                                <span class="avatar-text bg-primary">D</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Don Knight</h5>
-                                                            <span class="text-muted extra-small ms-2">08:35 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                I'm going to meet my friend of mine at the departments stores as soon as possible.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-direct.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar">
-                                                            <img src="assets/img/avatars/4.jpg" alt="#" class="avatar-img">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Warren White</h5>
-                                                            <span class="text-muted extra-small ms-2">06:20 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                Hello! Yeah, I'm going to meet my friend of mine at the departments stores as soon as possible.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-direct.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar">
-                                                            <img src="assets/img/avatars/11.jpg" alt="#" class="avatar-img">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Mila White</h5>
-                                                            <span class="text-muted extra-small ms-2">04:40 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                Hello! Yeah, I'm going to meet my friend of mine at the departments stores as soon as possible.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-direct.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar avatar-online">
-                                                            <img src="assets/img/avatars/5.jpg" alt="#" class="avatar-img">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Damian Binder</h5>
-                                                            <span class="text-muted extra-small ms-2">02:45 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                Hello! Yeah, I'm going to meet my friend of mine at the departments stores as soon as possible.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-direct.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar avatar-online">
-                                                            <span class="avatar-text">B</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Bill Marrow</h5>
-                                                            <span class="text-muted extra-small ms-2">12:20 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                Hello! Yeah, I'm going to meet my friend of mine at the departments stores as soon as possible.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="#" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar avatar-online">
-                                                            <span class="avatar-text">M</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Marshall Wallaker</h5>
-                                                            <span class="text-muted extra-small ms-2">12:18 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                Hello! Yeah, I'm going to meet my friend of mine at the departments stores as soon as possible.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- .card-body -->
-                                        </a>
-                                        <!-- Card -->
-
-                                        <!-- Card -->
-                                        <a href="chat-direct.html" class="card border-0 text-reset">
-                                            <div class="card-body">
-                                                <div class="row gx-5">
-                                                    <div class="col-auto">
-                                                        <div class="avatar">
-                                                            <span class="avatar-text">D</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <div class="d-flex align-items-center mb-3">
-                                                            <h5 class="me-auto mb-0">Don Knight</h5>
-                                                            <span class="text-muted extra-small ms-2">10:02 PM</span>
-                                                        </div>
-
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="line-clamp me-auto">
-                                                                Hello! Yeah, I'm going to meet my friend of mine at the departments stores as soon as possible.
                                                             </div>
                                                         </div>
                                                     </div>
