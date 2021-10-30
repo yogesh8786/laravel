@@ -332,7 +332,7 @@
                 success:function(data){
                     $("textarea[name='message']").val('');
                     $('#sendmsg').attr('disabled', true);
-                    $("#chat").html(data+'<br><br>');
+                    // $("#chat").html(data+'<br><br>');
                     $("#chat").animate({ scrollTop: (elem.scrollTop = elem.scrollHeight)*100}, "slow");
                 }
 
