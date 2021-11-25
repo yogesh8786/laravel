@@ -39,6 +39,7 @@ Route::namespace('App\Http\Controllers')->group(function() {
             Route::get('dashboard', 'ChatController@chatsForm')->name('dashboard');
             Route::get('create_chat', 'ChatController@createChatForm')->name('create_chat');
             Route::get('chating', 'ChatController@chating')->name('chating');
+            Route::get('chat-ajax', 'ChatController@chatAjax')->name('chatAjax');
             Route::post('sendMessage', 'ChatController@sendMessage')->name('sendMessage');
             Route::get('notification', 'NotificationController@notificationForm')->name('notifications');
             Route::get('settings', 'SettingController@settingForm')->name('settings');

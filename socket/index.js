@@ -36,9 +36,9 @@ const io = require('socket.io')(http, {
 var mysql = require('mysql');
 // const fetch = require('node-fetch')
 //const config = require('config');
-// const { emit } = require('process');
-// const port = process.env.PORT || 4017;
- var url = "http://localhost:1000";
+const { emit } = require('process');
+const port = process.env.PORT || 2000;
+//  var url = "http://localhost:1000";
 
 app.use(cors())
 
@@ -69,14 +69,21 @@ io.on('connection', (socket) => {
       });
 
     socket.on('sendmessage', (message) => {
-        console.log(message);
-        io.socket.emit('sendChatToClient', message);
+        console.log(message+'-------');
+        // io.socket.emit('sendChatToClient', message);
     })
+
+    socket.on('disconnectJobChatRoom', function (data) {
+        console.log('Chat left successfully');
+      socket.leave("JobChatRoom"+data.chat_relation_id)
+      socket.emit('disconnectJobChatRoom', { status:200 , 'message':'Chat left successfully' ,'data':{} })
+    });
+
     socket.on('disconnect', (socket) => {
         console.log('Disconnect');
     });
 });
 
-http.listen(2000, () => {
+http.listen(port, () => {
     console.log('connected');
 });

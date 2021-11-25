@@ -77,16 +77,28 @@ class ChatController extends Controller
             $relation->save();
         }
 
-        Chat::create([
+       $data = Chat::create([
             'chat_relation_id' => $relation->id,
             'sender_id'        => Auth::id(),
             'receiver_id'      => $request->id,
             'message'          => $request->message,
             'seen_status'      => 0
         ]);
-        return back();
+        return response()->json(['status' => 200, 'message' => __('Msg send'), 'data' => $data], 200);
+
+        // return back();
     }
 
+    public function chatAjax(Request $request){
+
+        // $data['chat'] = Chat::with(['sender','receiver','media'])->where('chat_relation_id',$request->chat_relation_id)->paginate(40);
+        $data['messages'] = Chat::where('chat_relation_id', $request->id)->get();
+            $data['groupedBydate'] = $data['messages']->groupBy(function($item,$key) {
+            return $item->created_at->format('D, Y-M d ');
+            });
+        return view('user.chatAjax',$data);
+
+    }
     public function deletemessage($id)
     {
         Chat::where('id',$id)->delete();
