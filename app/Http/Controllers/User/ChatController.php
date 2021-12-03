@@ -49,9 +49,11 @@ class ChatController extends Controller
 
             $data['messages'] = Chat::where('chat_relation_id', $relation->id)->get();
             $data['groupedBydate'] = $data['messages']->groupBy(function($item,$key) {
-            return $item->created_at->format('D, Y-M d ');
+               return $item->created_at->format('D, Y-M d ');
             });
+            $data['relation'] = $relation;
         }
+
         return view('user.chat-direct', $data);
     }
 

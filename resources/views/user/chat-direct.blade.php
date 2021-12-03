@@ -291,17 +291,13 @@
 
 @section('extra_scripts')
     <script>
+        var chatelement = $('#chat');
+        var socket = io('localhost:2000');
+        var id = "{{ $relation->id ?? '' }}";
+        var receiver_id = "{{ request()->id ?? '' }}";
+        var auth_id = "{{ Auth::id() ?? '' }}";
 
-        var socket = io('localhost:1000');
-        main = $('#wallet');
-        pagiDiv = $('#chat');
-        console.log($(pagiDiv).height())
-        console.log($(main).height())
-        var page = 1;
-        var type = 1;
-        var ajax = 1;
-        var totalPage = 30;
-        var elem = document.getElementById('chat');
+            socket.emit("connectChatRoom", id);
 
         $('#sendmsgtext').keyup( ()=> {
            var length = $('#sendmsgtext').val().length;
@@ -315,65 +311,50 @@
 
         $('#sendmsg').click(function(){
 
-            var id = $("input[name='id']").val();
+            var id = "{{ $relation->id ?? '' }}";
             var msg = $("textarea[name='message']").val();
 
-            socket.emit("sendMessage", msg);
-            $("#chat").animate({ scrollTop: (elem.scrollTop = elem.scrollHeight)*100}, "slow");
+            const data = {
+                'relation_id' : id,
+                'msg' : msg,
+            }
+            socket.emit("sendMessage", data);
+            var ht = chatelement.height() +1000 ;
+
+            socket.on('sendMessage', function(data) {
+                // $('#chat').append('<div class="">'+data.msg+'</div>');
+                $('#chat').append('<div class="message"><a href="#" data-bs-toggle="modal" data-bs-target="#modal-user-profile" class="avatar avatar-responsive"><img class="avatar-img" src="http://localhost:8000/assets/img/user-img/1633270380-location-(1).png" alt=""></a><div class="message-inner"><div class="message-body"><div class="message-content"><div class="message-text"><p>'+data.msg+'</p></div></div></div><div class="message-footer"><span class="extra-small text-primary">06:27 PM</span></div></div></div>');
+                $("#chat").animate({
+                    //  scrollTop: (chatelement.scrollTop = chatelement.scrollHeight) * 100
+                    scrollTop: ht
+                }, "slow");
+            });
+            var receiver_id = "{{ request()->id ?? '' }}";
 
             $.ajax({
                 type:'post',
                 url:"{{ route('sendMessage') }}",
                 data: {
-                    'id':id,
+                    'id':receiver_id,
                     'message':msg,
                     '_token': "{{ csrf_token() }}"
                 },
                 success:function(data){
+
                     $("textarea[name='message']").val('');
                     $('#sendmsg').attr('disabled', true);
-                    // $("#chat").html(data+'<br><br>');
-                    $("#chat").animate({ scrollTop: (elem.scrollTop = elem.scrollHeight)*100}, "slow");
-                }
+                        // $('#chat').append('<div class="text-right">'+msg+'</div>');
+                        $('#chat').append('<div class="message message-out"><a href="#" data-bs-toggle="modal" data-bs-target="#modal-profile" class="avatar avatar-responsive"><img class="avatar-img" src="http://localhost:8000/assets/img/user-img/1633367042-61Nk-VPObML._SY355_.jpg" alt=""></a><div class="message-inner"><div class="message-body"><div class="message-content"><div class="message-text"><p>'+msg+'</p></div><div class="message-action"><div class="dropdown"><a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></a><ul class="dropdown-menu"><li><hr class="dropdown-divider"></li><li><a class="dropdown-item d-flex align-items-center text-danger" href="http://localhost:8000/deletemessage/134"><span class="me-auto">Delete for everyone</span><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></div></a></li></ul></div></div></div></div><div class="message-footer"><span class="extra-small text-primary">06:27 PM</span></div></div></div>');
+                     var ht = chatelement.height() +1000 ;
 
-            });
-        });
+                        $("#chat").animate({
+                            // scrollTop: (chatelement.scrollTop = chatelement.scrollHeight) * 100
+                            scrollTop: ht
 
-        $(function(){
-            let socket = io('localhost:1000');
-
-            let msg = $('#sendmsgtext').text();
-
-            socket.emit("JobChatRoom", "{{ request()->id }}");
-
-            socket.on('JobChatRoom', function (msg) {
-                console.log(msg);
-            });
-
-            $("#chat").animate({ scrollTop: (elem.scrollTop = elem.scrollHeight)*100}, "slow");
-
-            $(pagiDiv).scroll(function () {
-                if ($(pagiDiv).scrollTop() + $(pagiDiv).height() <= $(main).height() + 10) {
-                    if(page < totalPage){
-                        page++;
+                        }, "slow");
                     }
 
-                }
             });
-
-        });
-
-        $('.chatRelation').click(function(){
-            var _this = $(this);
-            var chat_relation_id = $(this).attr('data-chat_relation_id');
-            $('#chat_relation_id').val(chat_relation_id);
-            var data = { sender_id: "{{ Auth::user()->id }}", chat_relation_id: $('#chat_relation_id').val(), receiver_id: $('#receiver_id').val() };
-
-            //getChat(chat_relation_id)
-        });
-
-        socket.on('getMessage', function (msg) {
-            getChat($('#chat_relation_id').val())
         });
 
 

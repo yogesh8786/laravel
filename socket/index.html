@@ -60,34 +60,21 @@
     <ul id="messages">
         <li id="message"></li>
     </ul>
-    <form action="">
-        <input id="m" autocomplete="off" aria-label="asd" />
-        <button>Send</button>
+    <form >
+        <input id="m" autocomplete="off" />
+        <button type="button" id="btn">Send</button>
     </form>
     <script src="https://cdn.socket.io/socket.io-2.3.0.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
         $(function () {
-            var socket = io();
-            $('form').submit(function () {
+            var socket = io('http://localhost:2000');
 
-
-                var data = { title: 'Testing Notification', message: "Hello this is Vendor and Admin push notification!", notification_type: 'leave', leave_id: 1 };
-                socket.emit("chatRefresh", data);
-
-
-                // socket.emit('leaveAddNotification', $('#m').val());
-
-                // var data = { "data": $('#m').val() };
-
-
-                // $('#m').val('');
-                // return false;
+            $('#btn').click(function () {
+                alert($('#m').val());
             });
 
-            socket.on('sendMessage', function (msg) {
-                console.log(msg);
-            });
+
         });
     </script>
 </body>
